@@ -1,38 +1,80 @@
+@font-face {
+  font-family: "Lobster-Regular";
+  src: url(./assets/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Yellowtail-Regular";
+  src: url(./assets/Yellowtail-Regular.ttf);
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: "Yellowtail-Regular", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  background-color: #f9f2ed;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1rem;
+  color: #282c34;
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #ffb562;
+  border-top: 0.02rem;
+  border-right: 0.3rem;
+  border-bottom: 0.3rem;
+  border-left: 0.05rem;
+  border-style: solid;
+  border-color: #413f42;
+  color: #413f42;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Lobster-Regular", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+}
+
+.button:hover {
+  background-color: #f87474;
+  color: #413f42;
+}
+
+.input {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  min-width: 25vw;
+  max-width: 80vw;
+  padding: 0.4rem 0.8rem;
+  border-style: solid;
+  border-color: #413f42;
+  background-color: #f9f2ed;
+  font-weight: 600;
+  color: #413f42;
+  border: 0.02rem 0.3rem 0.3rem 0.05rem;
+  font-family: "Lobster-Regular", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+}
+
+.text {
+  background-color: #533535;
+  padding: 0.04rem 0.5rem 0.35rem 0.05rem;
+  color: #faf8fc;
 }
