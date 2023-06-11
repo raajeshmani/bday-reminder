@@ -2,6 +2,15 @@
 
 One stop yearly reminder which notifies you 5 mins before the day.
 
+## Deployment
+```
+nvm use
+npm i
+npm i -g serve
+npm run build
+serve -s build -l 3001
+```
+
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/17880433/197405045-42d12a1b-976e-4bad-a3d2-882765bee13f.png)
